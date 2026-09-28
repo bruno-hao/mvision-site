@@ -16,9 +16,9 @@ export function Nav() {
           <Image
             src="/images/logo.svg"
             alt="M Vision Ótica Especializada"
-            width={132}
-            height={93}
-            className="h-9 w-auto"
+            width={192}
+            height={60}
+            className="h-11 w-auto md:h-14"
             priority
           />
         </a>
