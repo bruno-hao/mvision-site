@@ -21,13 +21,13 @@ export function About() {
         </Reveal>
 
         <Reveal delayMs={120} className="order-1 md:order-2">
-          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-[var(--radius-card)] shadow-[var(--shadow-card)]">
+          <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[var(--radius-card)] shadow-[var(--shadow-card)] md:aspect-[4/5]">
             <Image
               src="/images/equipe.jpeg"
               alt="Equipe da M Vision Ótica Especializada"
               fill
               sizes="(min-width: 768px) 480px, 90vw"
-              className="object-cover"
+              className="object-cover object-top"
             />
           </div>
         </Reveal>
